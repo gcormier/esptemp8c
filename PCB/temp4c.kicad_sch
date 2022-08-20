@@ -1056,7 +1056,6 @@
     )
   )
 
-
   (junction (at 173.99 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 0564ad06-8ddd-4dc6-bdb8-b669177f56e1)
   )
@@ -2934,6 +2933,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" (id 3) (at 41.91 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C701342" (id 4) (at 49.53 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 52222e31-8674-4756-bf69-e2f5469c3808))

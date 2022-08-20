@@ -6,10 +6,9 @@
 
 # To use this workflow in your own repo you need to edit the environment variables in the env: section
 # below.
-name: "KiBot - Fabrication and Documentation (push)"
+name: "(Push) Fab and Docs"
 
 on: push
-
 
 jobs:
   FabricationOutputs:

@@ -1,4 +1,4 @@
-name: "KiBot - Fabrication and Documentation (tag + release)"
+name: "(pcb-tag) Release with Fab and Docs"
 on:
   push:
     tags:
