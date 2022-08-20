@@ -25,3 +25,4 @@ fp-info-cache
 *.xml
 *.csv
 PCB/temp4c-backups*
+*.kicad_sch-bak
