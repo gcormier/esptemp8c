@@ -8,6 +8,8 @@ filters:
   - name: fix_rotation
     comment: 'Adjust rotation for JLC'
     type: rot_footprint
+    rotations:
+      - ["^ESP32-WROOM-", 90.0]
 
   - name: only_jlc_parts
     comment: 'Only parts with JLC (LCSC) code'
