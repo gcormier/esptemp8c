@@ -5,6 +5,10 @@ kibot:
   version: 1
 
 filters:
+  - name: fix_rotation
+    comment: 'Adjust rotation for JLC'
+    type: rot_footprint
+
   - name: only_jlc_parts
     comment: 'Only parts with JLC (LCSC) code'
     type: generic
@@ -17,7 +21,7 @@ variants:
     comment: 'Just a place holder for the rotation filter'
     type: kibom
     variant: rotated
-    pre_transform: _rot_footprint
+    pre_transform: fix_rotation
 
 outputs:
   - name: JLCPCB_gerbers
