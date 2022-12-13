@@ -19,10 +19,10 @@ jobs:
       - name: KiBot
         uses: INTI-CMNB/KiBot@v1_k6
         with:
-          config: PCB/.kibot/temp4c.kibot.yaml
+          config: pcb/.kibot/temp4c.kibot.yaml
           dir: ${{ env.OutputFolder }}
-          schema: PCB/temp4c.kicad_sch
-          board: PCB/temp4c.kicad_pcb
+          schema: pcb/temp4c.kicad_sch
+          board: pcb/temp4c.kicad_pcb
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
