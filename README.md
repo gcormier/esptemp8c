@@ -1,7 +1,7 @@
 # esptemp8c
 8-channel thermocouple logger using esphome for Dallas DS18B20 sensors.
 
-<img src="images/esptemp8c.png" width=25%/>
+<img src="images/esptemp8c.png" width=50%/>
 
 ## Sensors
 They can be found at various locations, including [DFRobot](https://www.dfrobot.com/product-689.html), [Adafruit](https://www.adafruit.com/product/381), Digikey or the usual suspects.
