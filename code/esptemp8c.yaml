@@ -1,0 +1,49 @@
+esp32:
+  board: esp32dev
+
+esphome:
+  name: esptemp8c
+
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "esptemp8cFallback"
+    password: "esptemp8c"
+
+captive_portal:
+
+# Enable logging
+logger:
+  level: DEBUG    # useful for initial finding of your dallas ID's
+# Enable Home Assistant API
+api:
+
+ota:
+
+dallas:
+  - pin: GPIO27
+
+sensor:
+  - platform: dallas
+    address: 0x0000000e9d000928
+    name: "0928"
+
+  - platform: dallas
+    address: 0x8100000e9cdf4428
+    name: "4428"
+
+#  - platform: dallas
+#    address: 0x2200000e9c382128
+#    name: "2128"
+
+  - platform: dallas
+    address: 0x6900000e9ced6728
+    name: "6728"
+
+  - platform: dallas
+    address: 0x9f00000e9c86eb28
+    name: "eb28"
