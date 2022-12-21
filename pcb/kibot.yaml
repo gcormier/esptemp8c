@@ -130,3 +130,8 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
+  
+  - name: 'STEP'
+    comment: "STEP file"
+    type: step
+    
