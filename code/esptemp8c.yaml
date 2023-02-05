@@ -4,7 +4,6 @@ esp32:
 esphome:
   name: esptemp8c
 
-
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
@@ -21,6 +20,9 @@ logger:
   level: DEBUG    # useful for initial finding of your dallas ID's
 # Enable Home Assistant API
 api:
+
+# Enable web_server if you want REST API requests
+#web_server:
 
 ota:
 
