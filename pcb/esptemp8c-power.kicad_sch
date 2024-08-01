@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 135.89 73.66)
+			(xy 133.35 73.66) (xy 142.24 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2376,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "2ee83cb5-ac3e-4f30-99ff-a128460fd33a")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 92.71 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f032f20-125c-43ed-bd65-bf9f9cd08d00")
 	)
 	(wire
 		(pts
@@ -2579,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 74.93) (xy 82.55 74.93)
+			(xy 76.2 74.93) (xy 92.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2669,16 +2679,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 73.66) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95943b44-8f61-45c3-9315-bd798691988d")
-	)
-	(wire
-		(pts
 			(xy 107.95 81.28) (xy 92.71 81.28)
 		)
 		(stroke
@@ -2749,16 +2749,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 92.71 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7abf6cb-4db3-4884-a0ba-670f4d747c1a")
-	)
-	(wire
-		(pts
 			(xy 224.79 83.82) (xy 219.71 83.82)
 		)
 		(stroke
@@ -2809,13 +2799,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 72.39) (xy 92.71 72.39)
+			(xy 76.2 72.39) (xy 82.55 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2709f9a-2c48-47b5-b2a7-07c9a7716587")
+		(uuid "b69f7794-d26c-48b8-af1a-cbe8d6db0c08")
 	)
 	(wire
 		(pts
@@ -3545,84 +3535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 138.43 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11b0b4ce-5c92-4868-bdc6-5b06611a092e")
-		(property "Reference" "D6"
-			(at 138.684 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS210"
-			(at 138.684 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 138.43 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14996"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e1e0ba5-d1b7-4a94-ab89-a47549ff14fd")
-		)
-		(pin "2"
-			(uuid "d8c618a9-71bb-40e5-a45c-7e703f874433")
-		)
-		(instances
-			(project "esptemp8c"
-				(path "/23e49c1c-e106-44cc-bc49-1a732eea896b/9514ff5c-b9a3-4b17-b039-8821c46f7fb4"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 120.65 109.22 0)
 		(unit 1)
@@ -4301,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Value" "SS210"
+		(property "Value" "1N5819WS"
 			(at 104.394 73.66 0)
 			(effects
 				(font
@@ -4310,7 +4222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 104.14 77.47 90)
 			(effects
 				(font
@@ -4337,7 +4249,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" "C191023"
 			(at 104.14 77.47 0)
 			(effects
 				(font
@@ -4457,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Value" "SS210"
+		(property "Value" "1N5819WS"
 			(at 112.014 67.31 0)
 			(effects
 				(font
@@ -4466,7 +4378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 111.76 71.12 90)
 			(effects
 				(font
@@ -4493,7 +4405,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" "C191023"
 			(at 111.76 71.12 0)
 			(effects
 				(font
@@ -5454,7 +5366,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 85.09 74.93 90)
+		(at 85.09 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5462,7 +5374,7 @@
 		(dnp no)
 		(uuid "d6047ede-18cd-41b6-a2b1-7907ff031b82")
 		(property "Reference" "F1"
-			(at 85.09 68.58 90)
+			(at 85.09 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5382,7 @@
 			)
 		)
 		(property "Value" "140mA hold / 340mA trip mSMD014"
-			(at 85.09 71.12 90)
+			(at 85.09 68.58 90)
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -5478,7 +5390,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 90.17 73.66 0)
+			(at 90.17 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 74.93 0)
+			(at 85.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 74.93 0)
+			(at 85.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5418,7 @@
 			)
 		)
 		(property "LCSC" "C70106"
-			(at 85.09 74.93 0)
+			(at 85.09 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Value" "SS210"
+		(property "Value" "1N5819WS"
 			(at 104.394 67.31 0)
 			(effects
 				(font
@@ -5707,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 104.14 71.12 90)
 			(effects
 				(font
@@ -5734,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" "C191023"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -5776,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Value" "SS210"
+		(property "Value" "1N5819WS"
 			(at 112.014 73.66 0)
 			(effects
 				(font
@@ -5785,7 +5697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 111.76 77.47 90)
 			(effects
 				(font
@@ -5812,7 +5724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" "C191023"
 			(at 111.76 77.47 0)
 			(effects
 				(font
