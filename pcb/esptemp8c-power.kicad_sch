@@ -2146,6 +2146,12 @@
 		(uuid "37beded9-8ae5-44f3-b0ba-9d17c66e47e7")
 	)
 	(junction
+		(at 118.11 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bdbfb7b-761e-4a5a-8bcb-f1fbaa3cbd6d")
+	)
+	(junction
 		(at 153.67 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2242,12 +2248,6 @@
 		(uuid "e4e0fb17-5e0c-4200-994c-056885a5a4b2")
 	)
 	(junction
-		(at 118.11 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb5d1e3f-1be9-4277-8a50-9b15f3808857")
-	)
-	(junction
 		(at 215.9 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2289,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 118.11 116.84)
+			(xy 118.11 115.57) (xy 118.11 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2359,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 120.65 111.76)
+			(xy 120.65 115.57) (xy 120.65 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2419,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 118.11 114.3)
+			(xy 114.3 115.57) (xy 118.11 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2709,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 115.57) (xy 120.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8a2a50-e619-4aeb-919c-89bef7acbb28")
+	)
+	(wire
+		(pts
 			(xy 142.24 73.66) (xy 144.78 73.66)
 		)
 		(stroke
@@ -2819,16 +2829,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 120.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0dd6d00-09a8-408c-a5fb-ac6bd88fa6d2")
-	)
-	(wire
-		(pts
 			(xy 215.9 83.82) (xy 219.71 83.82)
 		)
 		(stroke
@@ -2866,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "c9acaf35-29f8-458a-9ebe-0180c42b800c")
+	)
+	(wire
+		(pts
+			(xy 114.3 115.57) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba1b85c-2edc-48f8-82ee-bc9fba5ace3b")
 	)
 	(wire
 		(pts
@@ -2987,9 +2997,21 @@
 		)
 		(uuid "ffbcb8d1-8077-4bb8-9420-3a100bff1879")
 	)
+	(rectangle
+		(start 60.96 63.5)
+		(end 236.22 147.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 581eed30-a730-4427-920a-d1a056169645)
+	)
 	(text "24VAC->3V Regulation (500mA max)"
 		(exclude_from_sim no)
-		(at 67.31 60.96 0)
+		(at 60.96 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
