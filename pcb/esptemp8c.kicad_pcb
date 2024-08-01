@@ -11807,7 +11807,7 @@
 		(uuid "90abf19b-7919-4d72-9ddf-c3e09fff5d2f")
 	)
 	(gr_line
-		(start 77.99438 105.000043)
+		(start 77.99438 104.99998)
 		(end 60.494374 105)
 		(stroke
 			(width 0.1)
