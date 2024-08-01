@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS05S40.H3F"
+		(property "Value" "1N5819WS"
 			(at 125.984 97.79 0)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2762696"
+		(property "LCSC" "C191023"
 			(at 125.73 101.6 0)
 			(effects
 				(font
