@@ -14,7 +14,7 @@ outputs:
       configs:
         - layout:
             rows: 2
-            cols: 4
+            cols: 2
             space: 0
           tabs:
             type: full
