@@ -18,7 +18,7 @@ outputs:
       transparent_background: true
       output: "render-iso.png"
       width: 1920   # default 1280x720, bump to 1920x1080
-      zoom: -2
+      zoom: -4
       #move_y: 1
   
   - name: 'Rendering top'
@@ -33,7 +33,7 @@ outputs:
       transparent_background: true
       output: "render-top.png"
       width: 1920   # default 1280x720, bump to 1920x1080
-      zoom: -1
+      zoom: -4
 
   - name: 'Rendering bottom'
     type: render_3d
