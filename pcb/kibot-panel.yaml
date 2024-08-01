@@ -13,9 +13,10 @@ outputs:
       units: mm
       configs:
         - layout:
-            rows: 2
+            rows: 1
             cols: 2
-            vspace: 8
+            #vspace: 8
+            rotate: 90deg
           tabs:
             type: full
           cuts:
