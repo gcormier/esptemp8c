@@ -15,7 +15,7 @@ outputs:
         - layout:
             rows: 2
             cols: 2
-            space: 0
+            vspace: 8
           tabs:
             type: full
           cuts:
@@ -57,3 +57,4 @@ outputs:
           post:
             refillzones: true
             origin: bl
+            millradius: 0.6mm
