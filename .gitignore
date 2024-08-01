@@ -18,3 +18,5 @@ fp-info-cache
 **-backups*
 *.kicad_sch-bak
 secrets.yaml
+pcb/#auto_saved_files#
+pcb/*.lck
