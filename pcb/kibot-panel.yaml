@@ -16,7 +16,7 @@ outputs:
             rows: 1
             cols: 2
             #vspace: 8
-            rotate: 90deg
+            #rotate: 90deg
           tabs:
             type: full
           cuts:
