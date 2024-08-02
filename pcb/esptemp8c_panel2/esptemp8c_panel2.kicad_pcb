@@ -44,13 +44,13 @@
 		(aux_axis_origin 135.090983 102.730009)
 		(grid_origin 135.090983 102.730009)
 		(pcbplotparams
-			(layerselection 0x0001030_ffffffff)
+			(layerselection 0x00010f0_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -261,6 +261,54 @@
 				(bold yes)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "3V\nSIG\nGND"
+		(at 153.490983 86.930009 90)
+		(layer "F.SilkS")
+		(uuid "65b527df-a604-4360-8072-cdab59296f02")
+		(effects
+			(font
+				(size 2.2 2)
+				(thickness 0.3048)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "3V\nSIG\nGND"
+		(at 181.490983 86.930009 90)
+		(layer "F.SilkS")
+		(uuid "6df64ff1-eff1-4100-85fd-f730875ecb64")
+		(effects
+			(font
+				(size 2.2 2)
+				(thickness 0.3048)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "3V\nSIG\nGND"
+		(at 139.490983 86.930009 90)
+		(layer "F.SilkS")
+		(uuid "7c768bdf-c81d-4e2a-abc1-c287a807b6ed")
+		(effects
+			(font
+				(size 2.2 2)
+				(thickness 0.3048)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "3V\nSIG\nGND"
+		(at 167.490983 86.930009 90)
+		(layer "F.SilkS")
+		(uuid "8ec17338-72e1-4908-9d51-ef8de6cb0746")
+		(effects
+			(font
+				(size 2.2 2)
+				(thickness 0.3048)
+			)
+			(justify left top)
 		)
 	)
 )

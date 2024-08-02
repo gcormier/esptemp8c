@@ -591,6 +591,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Alt",
+          "name": "LCSC Alt",
+          "show": true
         }
       ],
       "filter_string": "",

@@ -3355,6 +3355,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Alt" "C5188158"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76a38288-5da2-424f-ba6e-f2aa4f3e17b3")
 		)
@@ -4224,6 +4233,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Alt" "C5188158"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08136abf-53b8-4d08-b0d7-87c6489f55ac")
 		)
@@ -4872,6 +4890,15 @@
 			)
 		)
 		(property "Notes" "3.81mm pitch Phoenix MC or clone"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Alt" "C5188158"
 			(at 222.25 60.96 0)
 			(effects
 				(font
