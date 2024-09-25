@@ -20,3 +20,4 @@ fp-info-cache
 secrets.yaml
 pcb/#auto_saved_files#
 pcb/*.lck
+code/secrets.yaml
