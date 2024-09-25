@@ -1,3 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "temp4c")(type "KiCad")(uri "${KIPRJMOD}/temp4c.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "D:/kicad-greg/kicad-espressif/footprints/Espressif.pretty")(options "")(descr ""))
 )

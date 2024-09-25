@@ -10,7 +10,6 @@ esphome:
     board_build.flash_mode: dio # If you don't specify this using esp-idf framework, the device will boot-loop.
 
 
-
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
@@ -29,6 +28,9 @@ logger:
   #level: DEBUG    # for initial finding of your dallas ID's
 
 api:
+
+# Enable web_server if you want REST API requests
+#web_server:
 
 ota:
   - platform: esphome
