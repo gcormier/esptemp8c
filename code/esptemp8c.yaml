@@ -1,8 +1,14 @@
 esp32:
-  board: esp32dev
+  board: esp32-c3-devkitm-1
+  framework:
+    type: esp-idf
+    version: recommended
 
 esphome:
-  name: esptemp8c
+  name: esptemp8c-board
+  platformio_options:
+    board_build.flash_mode: dio # If you don't specify this using esp-idf framework, the device will boot-loop.
+
 
 
 wifi:
@@ -18,32 +24,21 @@ captive_portal:
 
 # Enable logging
 logger:
-  level: DEBUG    # useful for initial finding of your dallas ID's
-# Enable Home Assistant API
+  # Use the ESP32-C3-MINI's native USB port for serial logging.
+  hardware_uart: USB_SERIAL_JTAG
+  #level: DEBUG    # for initial finding of your dallas ID's
+
 api:
 
 ota:
+  - platform: esphome
+    password: ""
 
-dallas:
-  - pin: GPIO27
+one_wire:
+  - platform: gpio
+    pin: GPIO6
 
 sensor:
-  - platform: dallas
-    address: 0x0000000e9d000928
-    name: "0928"
-
-  - platform: dallas
-    address: 0x8100000e9cdf4428
-    name: "4428"
-
-#  - platform: dallas
-#    address: 0x2200000e9c382128
-#    name: "2128"
-
-  - platform: dallas
-    address: 0x6900000e9ced6728
-    name: "6728"
-
-  - platform: dallas
+  - platform: dallas_temp
     address: 0x9f00000e9c86eb28
     name: "eb28"
