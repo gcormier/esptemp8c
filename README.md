@@ -8,7 +8,7 @@ Open source, n-channel temperature logger using esphome for Dallas DS18B20 senso
 ## Sensors
 They can be found at various locations, including [DFRobot](https://www.dfrobot.com/product-689.html), [Adafruit](https://www.adafruit.com/product/381), Digikey or the usual suspects.
 
-You will need to find out your sensor ID's as per the [esphome documentation](https://esphome.io/components/sensor/dallas.html).
+You will need to find out your sensor ID's as per the [esphome documentation](https://esphome.io/components/one_wire#one-wire).
 
 ### Counterfeit Sensors
 If you are using a Dallas DS18B20 sensor, I strongly recommend using Digikey, Mouser or Adafruit to avoid obtaining [counterfeit sensors](https://github.com/cpetrich/counterfeit_DS18B20/tree/master).
